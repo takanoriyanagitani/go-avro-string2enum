@@ -1,0 +1,22 @@
+{
+	"type":"record",
+	"name":"sample_record",
+	"fields":[
+		{"name":"name", "type":"string"},
+		{"name":"height", "type":"double"},
+		{"name":"active", "type":"boolean"},
+		{
+			"name":"status",
+			"type":{
+				"type":"enum",
+				"name":"Status",
+				"symbols":[
+					"UNSPECIFIED",
+					"Good",
+					"Warn",
+					"STOP"
+				]
+			}
+		}
+	]
+}

@@ -1,0 +1,5 @@
+{"name":"takao", "height":0.599, "active": true, "status":"Warn"}
+{"name":"fuji",  "height":3.776, "active":false, "status":"Good"}
+{"name":"sky",   "height":0.634, "active": true, "status":"STOP"}
+{"name":"tokyo", "height":0.333, "active": true, "status":"UNSPECIFIED"}
+{"name":"",      "height":0.000, "active":false, "status":"invalid"}
