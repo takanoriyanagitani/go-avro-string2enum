@@ -2,8 +2,8 @@ package str2enum
 
 import (
 	"iter"
-	"maps"
 	"log"
+	"maps"
 
 	ha "github.com/hamba/avro/v2"
 )

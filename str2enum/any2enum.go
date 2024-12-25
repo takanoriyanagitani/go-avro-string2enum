@@ -70,7 +70,7 @@ func (a AnyToEnum) MapsToMaps(
 					buf[key] = mapd
 				}
 
-				if !yield(buf, nil){
+				if !yield(buf, nil) {
 					return
 				}
 			}
